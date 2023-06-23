@@ -13,13 +13,13 @@ The code also calculates and displays the frames per second (FPS) on the image.<
 The processed image is displayed in a window using cv2.imshow, and the loop continues until the user presses any key.<br/>
 
 ## Main.py
-**1**The code sets up the webcam and initializes variables for volume control.<br/>
-**2**A loop is started to continuously capture frames from the webcam.<br/>
-**3**Inside the loop, the hand detector is used to detect and track hands in the captured frames.<br/>
-**4**The positions of specific landmarks on the hand (index finger and thumb) are extracted from the hand detector.<br/>
-**5**The code calculates the distance between the two landmarks using the math.hypot function.<br/>
-**6**The distance is mapped to the volume range and adjusted using the np.interp function.<br/>
-**7**The volume level is set using the volume.SetMasterVolumeLevel method from the PyCaw library.<br/>
-**8**The code visualizes the volume adjustment on the screen by drawing circles and rectangles.<br/>
-**9**The code also calculates and displays the frames per second (FPS) on the screen.<br/>
-**10**The processed image is displayed in a window using cv2.imshow, and the loop continues until the user presses any key.
+**1**. The code sets up the webcam and initializes variables for volume control.<br/>
+**2**. A loop is started to continuously capture frames from the webcam.<br/>
+**3**. Inside the loop, the hand detector is used to detect and track hands in the captured frames.<br/>
+**4**. The positions of specific landmarks on the hand (index finger and thumb) are extracted from the hand detector.<br/>
+**5**. The code calculates the distance between the two landmarks using the math.hypot function.<br/>
+**6**. The distance is mapped to the volume range and adjusted using the np.interp function.<br/>
+**7**. The volume level is set using the volume.SetMasterVolumeLevel method from the PyCaw library.<br/>
+**8**. The code visualizes the volume adjustment on the screen by drawing circles and rectangles.<br/>
+**9**. The code also calculates and displays the frames per second (FPS) on the screen.<br/>
+**10**. The processed image is displayed in a window using cv2.imshow, and the loop continues until the user presses any key.
