@@ -7,7 +7,7 @@ Takes an image as input, converts it to RGB format, and processes it using the M
 ### The findPosition method
 Returns the coordinates of the landmarks for a specific hand. It takes an image and a hand number as input and returns a list of landmark positions.
 ### In the main function (def main())
-A video capture object is created to read frames from the webcam. /n
+A video capture object is created to read frames from the webcam. <br/>
 Inside the main loop, the findHands and findPosition methods are called to detect and track hands in the captured frames. The landmark positions for the index finger (landmark ID 4) are printed.
 The code also calculates and displays the frames per second (FPS) on the image.
 The processed image is displayed in a window using cv2.imshow, and the loop continues until the user presses any key.
